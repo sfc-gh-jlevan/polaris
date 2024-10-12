@@ -26,5 +26,5 @@ services:
       - ./trino-config/catalog:/etc/trino/catalog
     environment:
       - POLARIS_SCOPE=PRINCIPAL_ROLE:spark-tutorial-catalog-role
-      - POLARIS_LOCAL_TRINO_CREDENTIAL=efgCnm+GFIlBQk4F6dx3vZLVoJs=:lhbvmO1MOrul+EJEmzeFhb7y5XdzRFX0wuG/o22zU+8=
+      - POLARIS_LOCAL_TRINO_CREDENTIAL=<client-id:secret-id>
       - POLARIS_AWS_ACCOUNT=pl44298.eu-central-1
