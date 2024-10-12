@@ -17,6 +17,9 @@
 # under the License.
 #
 
+# Polaris docker-compose.yml file containing Polaris secrets
+docker-compose.yml
+
 regtests/derby.log
 regtests/metastore_db
 regtests/output/
